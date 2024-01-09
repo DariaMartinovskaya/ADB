@@ -16,8 +16,13 @@
 <img src="Screens/Adb_findstr.jpg">
 </div>
  
- 
  #### 3. Install .apk file of todolist app to the device from the laptop using ADB
+```
+.\adb install D:\Daria_HW\TodoList.apk
+```
+<div style="display:flex;">
+<img src="Screens/Adb_install.jpg">
+</div>
  
  #### 4. Take a screenshot of the opened todolist app and copy it to the laptop by one command 
  
