@@ -41,10 +41,21 @@
 
  #### 5. List logs of todolist app to console
 ```
+.\adb logcat -d | findstr com.android.todolist 
+```
+
+ #### 6. Copy logs of todolist app to the laptop
+```
 .\adb logcat -d | findstr com.android.todolist > todolost2.log
 ```
- 
- #### 6. Copy logs of todolist app to the laptop
+<div style="display:flex;">
+<img src="Screens/Adb_logcat.jpg">
+</div>
  
  #### 7. Delete todolist app from the device using ADB
- 
+ ```
+.\adb uninstall com.android.todolist
+```
+<div style="display:flex;">
+<img src="Screens/Adb_uninstall.jpg">
+</div>
