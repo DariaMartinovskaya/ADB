@@ -1,8 +1,21 @@
  ## Android Debug Bridge (ADB)
 
  #### 1. Display the device connected in the console
+```
+.\adb devices
+```
+<div style="display:flex;">
+<img src="Screens/Adb_devices.jpg">
+</div>
  
  #### 2. List addres of todolist app in the Android system
+ ```
+.\adb shell 'pm list packages -f' | findstr list
+```
+<div style="display:flex;">
+<img src="Screens/Adb_findstr.jpg">
+</div>
+ 
  
  #### 3. Install .apk file of todolist app to the device from the laptop using ADB
  
