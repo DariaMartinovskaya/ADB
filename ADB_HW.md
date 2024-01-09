@@ -25,8 +25,24 @@
 </div>
  
  #### 4. Take a screenshot of the opened todolist app and copy it to the laptop by one command 
- 
+```
+.\adb shell screencap /storage/emulated/0/DCIM/todolist.png
+```
+<div style="display:flex;">
+<img src="Screens/adb_shell_screencap.jpg">
+</div>
+
+```
+.\adb pull /storage/emulated/0/DCIM/todolist.png todolist.png
+```
+<div style="display:flex;">
+<img src="Screens/adb_pull.jpg">
+</div>
+
  #### 5. List logs of todolist app to console
+```
+.\adb logcat -d | findstr com.android.todolist > todolost2.log
+```
  
  #### 6. Copy logs of todolist app to the laptop
  
