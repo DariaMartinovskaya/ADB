@@ -8,7 +8,7 @@
 <img src="Screens/Adb_devices.jpg">
 </div>
  
- #### 2. List addres of todolist app in the Android system
+ #### 2. List address of todolist app in the Android system
  ```
 .\adb shell 'pm list packages -f' | findstr list
 ```
