@@ -1,4 +1,4 @@
- ## ADB HW
+ ## Android Debug Bridge (ADB)
 
  #### 1. Display the device connected in the console
  
