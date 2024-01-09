@@ -46,7 +46,7 @@
 
  #### 6. Copy logs of todolist app to the laptop
 ```
-.\adb logcat -d | findstr com.android.todolist > todolost2.log
+.\adb logcat -d | findstr com.android.todolist > todolist2.log
 ```
 <div style="display:flex;">
 <img src="Screens/Adb_logcat.jpg">
